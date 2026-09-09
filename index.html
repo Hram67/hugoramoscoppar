@@ -7,16 +7,44 @@
 
 <style>
 
-    .foto {
-    background-color: white;
-    padding: 20px;
-    margin: 25px 0;
-    border-radius: 8px;
-}
-
-.foto h3 {
-    margin-top: 0;
-}
+    .indice {
+        text-align: center;
+        background-color: white;
+        padding: 20px;
+        margin: 25px 0 40px 0;
+        border-radius: 8px;
+    }
+    
+    .indice strong {
+        display: block;
+        margin-bottom: 15px;
+        font-size: 1.2em;
+    }
+    
+    .indice a {
+        display: inline-block;
+        margin: 5px 8px;
+        padding: 8px 12px;
+        text-decoration: none;
+        color: #333;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+    
+    .indice a:hover {
+        background-color: #eee;
+    }
+        
+        .foto {
+        background-color: white;
+        padding: 20px;
+        margin: 25px 0;
+        border-radius: 8px;
+    }
+    
+    .foto h3 {
+        margin-top: 0;
+    }
     
     .subtitulo {
     text-align: center;
@@ -67,6 +95,17 @@
     <p class="subtitulo">
         Una vida de disciplina, competencia y pasión por el deporte
     </p>
+   
+    <nav class="indice">
+        <strong>Recorrido deportivo</strong>
+        <a href="#atletismo">Atletismo</a>
+        <a href="#basquetbol">Básquetbol</a>
+        <a href="#handball">Handball</a>
+        <a href="#futsal">Fútbol de salón</a>
+        <a href="#formacion">Formación profesional</a>
+        <a href="#mensaje">Mensaje final</a>
+    </nav>
+    
     <h2>Si no hay deporte, no hay vida</h2>
 
     <p>
@@ -81,7 +120,7 @@
         diferentes etapas de esta trayectoria deportiva.
     </p>
 
-    <h2>Atletismo</h2>
+    <h2 id="atletismo">Atletismo: los primeros pasos</h2>
     
    <p><strong>1982 — Los inicios</strong><br>
     Salto largo, primeros años de su trayectoria deportiva.</p>
@@ -116,7 +155,7 @@
         En salto con garrocha estableció el récord nacional absoluto,
         que permaneció vigente durante 35 años, desde 1990 hasta 2025.
     </p>
-    <h2>Del atletismo al básquetbol</h2>
+    <h2 id="basquetbol">Del atletismo al básquetbol</h2>
 
     <div class="foto">
     <h3>📷 Archivo fotográfico — Básquetbol</h3>
@@ -147,7 +186,7 @@
         el vicecampeonato en los Juegos Nacionales de Encarnación.
     </p>
     
-        <h2>Handball: una etapa llena de títulos</h2>
+        <h2 id="handball">Handball: una etapa llena de títulos</h2>
         <div class="foto">
         <h3>📷 Archivo fotográfico — Handball</h3>
     
@@ -180,7 +219,7 @@
         sudamericanas y panamericanas.
     </p>
     
-        <h2>Fútbol de salón: pasión y competencia</h2>
+        <h2 id="futsal">Fútbol de salón: pasión y competencia</h2>
         <div class="foto">
         <h3>📷 Archivo fotográfico — Fútbol de salón</h3>
     
@@ -219,7 +258,7 @@
         donde culminó su carrera profesional como Analista de Sistemas.
     </p>
     
-        <h2>Un mensaje para las nuevas generaciones</h2>
+        <h2 id="mensaje">Un mensaje para las nuevas generaciones</h2>
     
     <p>
         Esta historia no pretende ser solamente el recuerdo de títulos,
@@ -241,7 +280,7 @@
         pediría a Dios que siempre me deje hacerlo...”</em>
     </blockquote>
         
-    <h2>El deporte como camino</h2>
+   <h2 id="formacion">El deporte como camino hacia la formación profesional</h2>
 
     <p>
         El deporte no solamente fue competencia. También fue una herramienta
