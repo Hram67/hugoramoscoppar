@@ -7,6 +7,40 @@
 
 <style>
 
+    .frase-portada {
+    max-width: 650px;
+    margin: 30px auto 0 auto;
+    padding-top: 20px;
+    border-top: 1px solid #ddd;
+    font-size: 1.15em;
+    font-style: italic;
+    text-align: center;
+}
+    
+    .portada {
+    text-align: center;
+    background-color: white;
+    padding: 40px 20px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+
+.portada h1 {
+    margin-bottom: 5px;
+    font-size: 2.4em;
+}
+
+.portada h2 {
+    margin-top: 0;
+    border-bottom: none;
+    font-size: 1.5em;
+    font-weight: normal;
+}
+
+.portada .subtitulo {
+    margin-bottom: 0;
+}
+    
     .indice {
         text-align: center;
         background-color: white;
@@ -51,7 +85,7 @@
     font-style: italic;
     color: #666;
     margin-bottom: 35px;
-}
+    }
     body {
         font-family: Arial, sans-serif;
         max-width: 900px;
@@ -91,10 +125,13 @@
 
 <body>
 
+   <header class="portada">
     <h1>Hugo Ramos Coppari</h1>
+    <h2>Historia de una vida deportiva</h2>
     <p class="subtitulo">
         Una vida de disciplina, competencia y pasión por el deporte
     </p>
+</header>
    
     <nav class="indice">
         <strong>Recorrido deportivo</strong>
@@ -275,10 +312,10 @@
         que acompañó toda esta trayectoria:
     </p>
     
-    <blockquote>
-        <em>“Si haciendo deporte pudiera robar la sonrisa de un chico,
-        pediría a Dios que siempre me deje hacerlo...”</em>
-    </blockquote>
+    <p class="frase-portada">
+    “Si haciendo deporte pudiera robar la sonrisa de un chico,
+    pediría a Dios que siempre me deje hacerlo...”
+    </p>
         
    <h2 id="formacion">El deporte como camino hacia la formación profesional</h2>
 
